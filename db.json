@@ -1,0 +1,21 @@
+{
+  "effort": {
+    "data": [
+      {
+        "id" : 1,
+        "short_name": "INNEN", 
+        "wp_list": [1, 6, 0, 1, 2, 1, 0, 6, 0, 1, 6, 1] 
+      },
+      {
+        "id" : 2,
+        "short_name": "CITECH", 
+        "wp_list": [4, 3, 4, 4, 0, 1, 8, 4, 12, 4, 6, 0] 
+      },
+      {
+        "id" : 3,
+        "short_name": "CBENT", 
+        "wp_list": [2, 2, 3, 2, 1, 0, 2, 2, 2, 0, 2, 2] 
+      }
+    ]
+  }
+}
