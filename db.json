@@ -1,20 +1,37 @@
 {
   "effort": {
-    "data": [
+    "partn_list": [
       {
         "id" : 1,
-        "short_name": "INNEN", 
-        "wp_list": [1, 6, 0, 1, 2, 1, 0, 6, 0, 1, 6, 1] 
+        "short_name": "INNEN",
+        "status": 3
       },
       {
         "id" : 2,
-        "short_name": "CITECH", 
-        "wp_list": [4, 3, 4, 4, 0, 1, 8, 4, 12, 4, 6, 0] 
+        "short_name": "CITECH",
+        "status": 1
       },
       {
         "id" : 3,
-        "short_name": "CBENT", 
-        "wp_list": [2, 2, 3, 2, 1, 0, 2, 2, 2, 0, 2, 2] 
+        "short_name": "CBENT",
+        "status": 2
+      }
+    ],
+    "wp_list": [
+      {
+        "id" : 1,
+        "wp_num" : 1,
+        "wp_title": "Title test", 
+        "task_list": [
+          {
+            "task_num" : 1,
+            "task_title": "Task title", 
+            "partn_lead": "INNEN",
+            "date_start": 1,
+            "date_end": 5,
+            "partn_list": [1,null,2] 
+          }
+        ] 
       }
     ]
   }
