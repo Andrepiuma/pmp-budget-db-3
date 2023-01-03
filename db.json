@@ -19,13 +19,12 @@
     ],
     "wp_list": [
       {
-        "id" : 1,
-        "wp_num" : 1,
-        "wp_title": "Title test", 
+        "num" : 1,
+        "title": "WP title",
         "task_list": [
           {
-            "task_num" : 1,
-            "task_title": "Task title", 
+            "num" : 1,
+            "title": "Task title", 
             "partn_lead": "INNEN",
             "date_start": 1,
             "date_end": 5,
