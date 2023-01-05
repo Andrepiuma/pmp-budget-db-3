@@ -2,33 +2,68 @@
   "effort": {
     "partn_list": [
       {
-        "id" : 1,
+        "id": 1,
         "short_name": "INNEN",
         "status": 3
       },
       {
-        "id" : 2,
+        "id": 2,
         "short_name": "CITECH",
         "status": 1
       },
       {
-        "id" : 3,
+        "id": 3,
         "short_name": "CBENT",
         "status": 2
+      },
+      {
+        "id": 4,
+        "short_name": "PATN4",
+        "status": 2
+      },
+      {
+        "id": 5,
+        "short_name": "PATN5",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "short_name": "PATN6",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "short_name": "PATN7",
+        "status": 3
+      },
+      {
+        "id": 8,
+        "short_name": "PATN8",
+        "status": 2
+      },
+      {
+        "id": 9,
+        "short_name": "PATN9",
+        "status": 3
+      },
+      {
+        "id": 10,
+        "short_name": "PATN10",
+        "status": 1
       }
     ],
     "wp_list": [
       {
         "num" : 1,
-        "title": "WP title",
+        "title": "WP1 title",
         "task_list": [
           {
             "num" : 1,
-            "title": "Task title", 
+            "title": "Task 1 title", 
             "partn_lead": "INNEN",
             "date_start": 1,
             "date_end": 5,
-            "partn_list": [1,null,2] 
+            "partn_list": [1,null,2,null,null,null,2,null,null,null] 
           },
           {
             "num" : 2,
@@ -36,7 +71,7 @@
             "partn_lead": "CITECH",
             "date_start": 2,
             "date_end": 7,
-            "partn_list": [null,1,null] 
+            "partn_list": [null,1,null,null,1,null,null,1,null,1] 
           },
           {
             "num" : 3,
@@ -44,7 +79,29 @@
             "partn_lead": "CBENT",
             "date_start": 3,
             "date_end": 5,
-            "partn_list": [null,3,null] 
+            "partn_list": [null,3,null,null,null,null,2,null,null,null] 
+          }
+        ] 
+      },
+      {
+        "num" : 2,
+        "title": "WP2 title",
+        "task_list": [
+          {
+            "num" : 1,
+            "title": "Task 1 title", 
+            "partn_lead": "PARTN4",
+            "date_start": 4,
+            "date_end": 8,
+            "partn_list": [null,null,2,null,null,2,2,null,null,null] 
+          },
+          {
+            "num" : 2,
+            "title": "Task 2 title", 
+            "partn_lead": "PARTN7",
+            "date_start": 6,
+            "date_end": 9,
+            "partn_list": [3,null,1,null,null,null,2,3,null,null] 
           }
         ] 
       }
