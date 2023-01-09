@@ -106,5 +106,89 @@
         ] 
       }
     ]
+  },
+  "budget_check": {
+    "notifications": {
+      "active": false,
+      "email_selected": null,
+      "email_list": [
+        "p.circelli@ciaotech.com", 
+        "a.franciosini@ciaotech.com", 
+        "m.molicacolella@ciaotech.com"
+      ]
+    },
+    "latest_data": [
+      {
+        "partn_short_name": "INNEN",
+        "message": "added salary costs per WP",
+        "date": "14/09/22",
+        "author": "v.marino@innovationengineering.eu"
+      },
+      {
+        "partn_short_name": "CITECH",
+        "message": "added monthly effort for WP2",
+        "date": "11/09/22",
+        "author": "p.circelli@ciaotech.com"
+      },
+      {
+        "partn_short_name": "INNEN",
+        "message": "update justification of costs",
+        "date": "10/09/22",
+        "author": "v.marino@innovationengineering.eu"
+      },
+      {
+        "partn_short_name": "CBENT",
+        "message": "added monthly effort for WP3",
+        "date": "10/09/22",
+        "author": "sara.bianchi@cbent.com"
+      }
+    ],
+    "missing_data": [
+      {
+        "data_type": "salary",
+        "partn_short_name": "INNEN",
+        "message": "hasn't entered data in salary section yet"
+      },
+      {
+        "data_type": "salary",
+        "partn_short_name": "CITECH",
+        "message": "hasn't entered salary costs for the WP 4, 6, 7"
+      },
+      {
+        "data_type": "salary",
+        "partn_short_name": "PARTN4",
+        "message": "hasn't entered data in salary section yet"
+      },
+      {
+        "data_type": "salary",
+        "partn_short_name": "PARTN5",
+        "message": "hasn't entered salary costs for the WP 1, 2, 5"
+      },
+      {
+        "data_type": "salary",
+        "partn_short_name": "PARTN7",
+        "message": "hasn't entered data in salary section yet"
+      },
+      {
+        "data_type": "effort",
+        "partn_short_name": "CITECH",
+        "message": "hasn't entered monthly effort for the WP 1, 2, 3"
+      },
+      {
+        "data_type": "effort",
+        "partn_short_name": "CBENT",
+        "message": "hasn't entered monthly effort for the WP 5"
+      },
+      {
+        "data_type": "effort",
+        "partn_short_name": "PARTN4",
+        "message": "hasn't entered data in effort section yet"
+      },
+      {
+        "data_type": "effort",
+        "partn_short_name": "PARTN6",
+        "message": "hasn't entered monthly effort for the WP 4, 6, 7"
+      }
+    ]
   }
 }
