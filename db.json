@@ -110,7 +110,7 @@
   "budget_check": {
     "notifications": {
       "active": false,
-      "email_selected": "a.franciosini@ciaotech.com",
+      "email_selected": "",
       "email_list": [
         "p.circelli@ciaotech.com", 
         "a.franciosini@ciaotech.com", 
