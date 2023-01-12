@@ -109,7 +109,7 @@
   },
   "budget_check": {
     "notifications": {
-      "active": true,
+      "active": false,
       "email_selected": "",
       "email_list": [
         "p.circelli@ciaotech.com", 
